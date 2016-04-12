@@ -1,6 +1,10 @@
 files:
   -
+<<<<<<< HEAD
     source: /bb/**/*.md
+=======
+    source: /**/*.md
+>>>>>>> 658620242aa1dfa00633c6fdb2ea1aedabe7a642
     translation: /%original_path%/%language%/%original_file_name%
   -
     source: /aa/**/*.*
