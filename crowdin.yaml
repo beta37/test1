@@ -1,6 +1,11 @@
 files:
   -
-    source: /**/*.md
+    source: /aa/**/*.md
+    translation: /%original_path%/%language%/%original_file_name%
+    ignore:
+      - /crowdin.yaml
+  -
+    source: /bb/**/*.md
     translation: /%original_path%/%language%/%original_file_name%
     ignore:
       - /crowdin.yaml
