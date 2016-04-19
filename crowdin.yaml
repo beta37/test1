@@ -1,10 +1,10 @@
 files:
   -
-    source: /bb/**/*.md
-    translation: /%language%/%original_path%/%original_file_name%
+    source: "/bb/**/*.md"
+    translation: "/%language%/%original_path%/%original_file_name%"
   -
-    source: /aa/**/*.*
-    translation: /%language%/%original_path%/%original_file_name%
+    source: "/aa/**/*.*"
+    translation: "/%language%/%original_path%/%original_file_name%"
     ignore: 
-        - /aa/1/README.md
+        - "/aa/1/README.md"
 
