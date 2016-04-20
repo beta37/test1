@@ -9,7 +9,7 @@ files:
     source: /aa/**/*.*
     translation: /%language%/**/%original_file_name%  #simple comment
     ignore: #simple comment
-        - /aa/1/README.md
+        - /aa/1/README.md#simple comment
   - #simple comment
     source: /**/*.* ### #simple comment
     #simple comment
