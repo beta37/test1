@@ -1,15 +1,4 @@
 files:
   -
-    source: /bb/**/*.md
-    translation: /aa/**/%language%/%original_file_name%
-  -
-    source: /aa/**/*.*
-    translation: /%language%/**/%original_file_name%
-    ignore: 
-        - /aa/1/README.md
-  -
-    source: /**/*.*
-    translation: /%two_letters_code%/**/%original_file_name%
-    ignore:
-        - /aa/**/*.*
-        - /bb/**/*.* 
+    source: /*.md
+    translation: /**/%two_letters_code%_%original_file_name%
