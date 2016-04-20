@@ -9,7 +9,7 @@ files:
     source: /aa/**/*.*
     translation: /%language%/**/%original_file_name%  #simple comment
     ignore: #simple comment
-        - /aa/1/README.md#simple comment
+        - /aa/1/README.md # translatable texts are stored in "text" nodes of parent node "content"
   - #simple comment
     source: /**/*.* ### #simple comment
     #simple comment
