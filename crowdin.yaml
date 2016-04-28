@@ -10,5 +10,5 @@ files:
         sfa_SFA: un_uns
     ignore:
       - /**/*.txt
-      - /aa/*.*
+
         
