@@ -8,3 +8,7 @@ files:
         ua: ff
       tree_latters_code:
         sfa_SFA: un_uns
+    ignore:
+      - /**/*.txt
+      - /aa/*.*
+        
