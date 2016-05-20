@@ -1,7 +1,7 @@
 files:
-  -      
-    source: /**/*.* # translatable texts are stored in "text" nodes of parent node "content"
-    translation: '/**/%two_letters_code%_%original_file_name%' # translatable texts are stored in "text" nodes of parent node "content"
+  - 
+    source: '/**/*.*'
+    translation: "'/**/%two_letters_code%_%original_file_name%'"
     languages_mapping:
       two_letters_code:
         en: ru
@@ -9,6 +9,4 @@ files:
       tree_latters_code:
         sfa_SFA: un_uns
     ignore:
-      - /**/*.txt
-
-        
+      - '/**/*.txt'
