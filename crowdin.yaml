@@ -1,7 +1,15 @@
 files:
   - 
     source: '/**/*.md'
+    ignore:
+      - asdf
+      - asdff
+      - ffga
     translation: '/**/%two_letters_code%_%original_file_name%'
   - 
     source: '/**/*.txt'
     translation: '/**/%two_letters_code%-%original_file_name%'
+    languages_mapping:
+      two_letters_code:
+        it: sdfg
+        ja: asdf
