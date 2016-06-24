@@ -1,4 +1,4 @@
-files: dfgdfg
-  
-    source: '/**/1.md'
-    translation: '%original_path%'
+files: 
+  -
+    source: 
+    translation: 
