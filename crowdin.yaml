@@ -1,4 +1,6 @@
-files: 
-  -
-    source: 
-    translation: 
+files:
+  - 
+    source: '*.csv'
+    translation: '/%two_letters_code%/%original_path%/%original_file_name%'
+    multilingual_spreadsheet: "1"
+    first_line_contains_header: "1"
