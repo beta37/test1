@@ -2,6 +2,8 @@ files:
   - 
     source: '/**/*.csv'
     translation: '/%two_letters_code%/%original_path%/%original_file_name%'
+    first_line_contains_header: "1"
+    scheme: identifier,source_phrase,translation
   - 
     source: '/**/*.md'
     translation: '/%two_letters_code%/%original_path%/%original_file_name%'
