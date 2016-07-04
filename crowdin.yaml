@@ -1,8 +1,7 @@
 files:
   - 
     source: '/**/*.csv'
-    translation: '/%two_letters_code%/%original_path%/%original_file_name%'
-    first_line_contains_header: "1"
+    translation: '/%osx_code%/%original_file_name%'
     scheme: identifier,source_phrase,translation
   - 
     source: '/**/*.md'
