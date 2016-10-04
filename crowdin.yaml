@@ -1,8 +1,4 @@
 files:
   - 
-    source: '/**/*.csv'
-    translation: '/%osx_code%/%original_file_name%'
-    scheme: identifier,source_phrase,translation
-  - 
     source: '/**/*.md'
-    translation: '/%two_letters_code%/%original_path%/%original_file_name%'
+    translation: '%original_path%/%original_file_name%'
