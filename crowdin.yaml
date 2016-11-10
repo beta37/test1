@@ -1,3 +1,10 @@
+project_identifier: '1'
+api_key: '2'
+base_path: '3'
+base_url: '4'
+simple_key: 'ha-ha'
+lazha: "ta-ta"
+preserve_hierarchy: true,
 files:
   - 
     source: '/**/*.md'
